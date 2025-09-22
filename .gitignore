@@ -134,6 +134,21 @@ dist
 !.yarn/sdks
 !.yarn/versions
 
-# Vite logs files
+# Vite log files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Vite cache
+.vite/
+
+# Prisma
+prisma/dev.db
+prisma/dev.db-journal
+.prisma/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Misc
+*.log
